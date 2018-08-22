@@ -1,5 +1,5 @@
 const app = require('discord.js');
-const data = require(../data.json');
+const data = require('../data.json');
 
 exports.run = (energon, message, args) => {
 
