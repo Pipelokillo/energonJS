@@ -28,6 +28,20 @@ energon.on('message', async message => {
   if(message.author.bot) return;
   //If the command is invoked by a bot user, ignore.
 
+ //Scrim list embed
+let schan = "481842532184227850"
+const fetchedMessage = energon.channels.fetch("481842532184227850");
+let embed = fetchedMessage.embeds[0];
+.addField("nou")
+.setFooter("nou")
+message.channel.send(embed)
+if (message.channel.id === "475790630078119956" && message.content) {
+.addField("Hello")
+.setFooter("Hello")
+fetchedMessage.edit({embed})
+}
+//Scrim List embed end 
+ 
 if (message.content.indexOf(data.prefix) !== 0) return;
   //If prefix only is detected with no command, ignore.
 
