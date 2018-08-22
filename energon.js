@@ -38,7 +38,7 @@ const command = args.shift().toLowerCase();
   //Convert uppercase commands into lowercase
 
 let commandFile = require(`./modules/${command}.js`);
-   commandFile.run(AI, message, args);
+   commandFile.run(energon, message, args);
    //Read commands from modules folder
  
  });
