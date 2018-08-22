@@ -1,0 +1,28 @@
+{
+  "name": "Energon",
+  "version": "0.0.1",
+  "description": "Fortnite-focused Discord bot",
+  "main": "energon.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdcoding01/energonJS.git"
+  },
+  "keywords": [
+    "Bot",
+    "Discord",
+    "Fortnite",
+    "JavaScript"
+  ],
+  "author": "Jose Barranco | Alphi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdcoding01/energonJS/issues"
+  },
+  "homepage": "https://github.com/jdcoding01/energonJS#readme",
+"dependencies": {
+    "discord.js": "^11.3.2"
+ }
+}
