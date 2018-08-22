@@ -30,7 +30,7 @@ energon.on('message', async message => {
 
  //Scrim list embed
 let schan = "481842532184227850"
-const fetchedMessage = schan.fetch("481842532184227850");
+const fetchedMessage = energon.channels.get("481842532184227850");
 let embed = fetchedMessage.embeds[0];
 let display = new app.RichEmbed()
 .addField("nou")
