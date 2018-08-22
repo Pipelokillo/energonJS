@@ -5,7 +5,7 @@ exports.run = (energon, message, args) => {
 
 const display = new app.RichEmbed()
 .setDescription("REV ScrimBot is a <:Fortnite:481831102802034689> bot for match info. Developed by Alphi#9839 <:staff:474743393658863626>")
-.setColor(data.embedColor)
+.setColor(`0x00ff00`)
 .setThumbnail("https://cdn.discordapp.com/emojis/481831653581258753.png?v=1")
 .setTimestamp()
 .addField("Bot owner", "REV Pipelokillo#2081")
