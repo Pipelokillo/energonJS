@@ -8,7 +8,7 @@ const display = new app.RichEmbed()
 .setColor(data.embedColor)
 .setThumbnail("https://cdn.discordapp.com/emojis/481831653581258753.png?v=1")
 .setTimestamp()
-.addField("Bot owner", "REV Pipelokillo#2081" 
+.addField("Bot owner", "REV Pipelokillo#2081")
 .setFooter("Requested by: " + message.author.username)
 message.channel.send(display);
 }
