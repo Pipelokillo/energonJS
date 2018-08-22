@@ -28,18 +28,18 @@ energon.on('message', async message => {
   if(message.author.bot) return;
   //If the command is invoked by a bot user, ignore.
 
-if (message.content.indexOf(prefix) !== 0) return;
+if (message.content.indexOf(data.prefix) !== 0) return;
   //If prefix only is detected with no command, ignore.
 
-const args = message.content.slice(prefix.length).trim().split(/ +/g);
+const args = message.content.slice(data.prefix.length).trim().split(/ +/g);
   //Eliminate the prefix from the command and take the command name only.
 
 const command = args.shift().toLowerCase();
   //Convert uppercase commands into lowercase
 
-let commandFile = require(`./commands/${command}.js`);
+let commandFile = require(`./modules/${command}.js`);
    commandFile.run(AI, message, args);
-   //Read commands from commands folder
+   //Read commands from modules folder
  
  });
 
