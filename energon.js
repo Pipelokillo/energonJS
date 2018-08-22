@@ -1,4 +1,4 @@
-//Developed by Alphi#9839 (Discord username)
+//Developed by Alphi#9839 (Discord username) | Jose Barranco
 
 const app = require('discord.js');
 //Require Discord API
