@@ -32,10 +32,12 @@ energon.on('message', async message => {
 let schan = "481842532184227850"
 const fetchedMessage = energon.channels.fetch("481842532184227850");
 let embed = fetchedMessage.embeds[0];
+let display = new app.RichEmbed()
 .addField("nou")
 .setFooter("nou")
 message.channel.send(embed)
 if (message.channel.id === "475790630078119956" && message.content) {
+let sDisplay = new app.RichEmbed()
 .addField("Hello")
 .setFooter("Hello")
 fetchedMessage.edit({embed})
