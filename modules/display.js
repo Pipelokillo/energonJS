@@ -15,5 +15,5 @@ energon.on('message', (message) => {
     m.edit(stuff);
     return;
      }
-   }
+   })
  }       
