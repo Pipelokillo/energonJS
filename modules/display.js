@@ -6,7 +6,7 @@ const embed = new app.RichEmbed()
 .setDescription("Scrim list bot for Fortnite")
 .setThumbnail(energon.user.avatarURL)
 .setTimestamp()
-.setFooter("Requested by: ", message.author.tag)
+.setFooter("Requested by: " + message.author.username)
 const m = message.channel.send(embed);
 energon.on('message', (message) => { 
     if (message.channel.id === 'ID') {
