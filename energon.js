@@ -24,7 +24,11 @@ console.log(`Users: ${energon.users.size}`);
 
 energon.on('message', async message => {
  //Initialize message event 
-
+if(message.channel.id === '475790630078119956') {
+ const stuff = message.content;
+ m.edit(stuff);
+ return;
+}
   if(message.author.bot) return;
   //If the command is invoked by a bot user, ignore.
 
