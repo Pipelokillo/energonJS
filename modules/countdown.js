@@ -53,7 +53,7 @@ async function handleMusic(message, video, vc, mm) {
             volume: 0.5,
             maxLength: 3600
         }
- 
+    }
 
 function startPlaying(guild, song) {
     const GuildQueue = queue.get(guild.id);
@@ -90,10 +90,7 @@ function startPlaying(guild, song) {
     });
 
     dispatcher.setVolume(GuildQueue.volume);
+ }
+}
 }
 
-module.exports.info = {
-    name: "play",
-    description: "play music from youtube",
-    usage: "?play <name/link>"
-}
