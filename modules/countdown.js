@@ -1,5 +1,5 @@
 const app = require('discord.js');
-exports.run = (energon, message, args) => {
+exports.run = async (energon, message, args) => {
  if (message.member.voice.channel) {
       const connection = await message.member.voice.channel.join();
     } else {
