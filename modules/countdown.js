@@ -8,7 +8,7 @@ const {
     MessageCollector,
     RichEmbed
 } = require('discord.js');
-exports.run = async (inv, message, args) => {
+exports.run = async (energon, message, args) => {
 
     message.react("🎵")
     message.react("✅")
