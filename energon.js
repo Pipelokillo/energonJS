@@ -22,6 +22,12 @@ console.log(`Users: ${energon.users.size}`);
 //Log amount of users serving in console
 });
 
+inv.on('guildMemberAdd',  member => {
+//Initialize Guild Member Add event
+ console.log("New member joined!");
+ //Log string into comsole (no real purpose)
+});
+
 energon.on('message', async message => {
  //Initialize message event 
   if(message.author.bot) return;
