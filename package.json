@@ -28,6 +28,7 @@
     "ffmpeg-binaries": "^3.2.2",
     "node-opus": "^0.3.0",
     "ytdl-core": "^0.20.4",
+    "simple-youtube-api": "^5.0.2",
     "ytdl": "^0.10.1"
  }
 }
