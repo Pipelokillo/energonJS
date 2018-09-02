@@ -9,7 +9,7 @@ const embed = new app.RichEmbed()
 .setFooter("Requested by: " + message.author.username)
 const m = message.channel.send(embed);
 energon.on('message', (message) => { 
-    if (message.channel.id === '475790630078119956') {
+    if (message.channel.id === '476464590616789002') {
         //third step code
     const stuff = message.content;
     m.edit(stuff);
